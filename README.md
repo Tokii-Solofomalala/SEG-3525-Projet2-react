@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+
+# SEG-3525-Projet2-react
+Projet de notre choix de SEG 3525 en utilisant React
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # SEG-3525-Projet2-react
 Projet de notre choix de SEG 3525 en utilisant React
 >>>>>>> c29cc03060d3bd5c85a669e54ff761c9c17ba316
+
