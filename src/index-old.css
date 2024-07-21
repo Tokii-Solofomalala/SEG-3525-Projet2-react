@@ -1,0 +1,129 @@
+/*Navbar*/
+.justify-content-end{
+  background-color: rgba(222, 222, 225, 0.989) ;
+  font-family: system-ui, sans-serif;
+  width: auto;
+  padding: 0;
+}
+.justify-content-end .nav-link{
+  color: black;
+}
+/*NavbarSecond*/
+.navbar-container {
+  width: 100%;
+  padding: 0; 
+  justify-content: space-between;
+  font-family: system-ui, sans-serif;
+  background-color: whitesmoke(249, 249, 249);
+}
+
+.navbar-container .container {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+}
+
+.me-auto {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; 
+}
+
+.navbar-brand {
+  font-weight: bold;
+  
+  margin-right: 20px; 
+  font-style: italic;
+}
+
+.me-auto .nav-link {
+  color: black;
+  margin-left: 200px;
+}
+
+.navbar-container .button {
+  background-color: navy;
+  color: white;
+  margin-left: auto; 
+  font-weight: bold;
+  
+}
+/*Apropos*/
+.aproposSection{
+  background-color: whitesmoke;
+}
+/*Section informations*/
+.with-border {
+  border-right: solid navy;
+  padding-right: 15px;
+  border-bottom:solid navy ;
+  padding-bottom: 15px;
+  
+}
+.no-border{
+  border-bottom: solid navy;
+  padding-bottom: 15px;
+}
+.no-border-buttom{
+  border-right: solid navy;
+  padding-right: 15px;
+}
+.informationsSupp{
+  background-color: none;
+  margin-top: 40px;
+}
+/*footer*/
+.footer{
+  
+  
+  
+}
+.footer h6{
+  margin-top: 20px;
+  color: white;
+  margin-left: 50px;
+}
+.ListHorizantal {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+  border-left:solid ;
+  padding-right: 15px;
+  color: white;
+ 
+
+}
+.up{
+  background-color: navy;
+  width: 70%;
+  margin-left: 150px;
+  
+}
+.down {
+  background-color:  rgba(222, 222, 225, 0.989) ;
+  margin-top: 30px;
+}
+.down h5{
+  font-style: italic;
+  font-weight: bold;
+  color: navy;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/* PROGRESS BAR */
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: rgb(98, 0, 255);
+}
+
+/*stepper*/
+
