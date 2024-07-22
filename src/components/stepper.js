@@ -6,10 +6,10 @@ import { useNavigate } from 'react-router-dom';
 import NavbarSecond from '../components/navbarSecond';
 import Navbar from '../components/navbar';
 
+
 function Stepper(){
     const [page, setPage] = useState(0);
     const navigate = useNavigate();
-    const [complete, setComplete] = useState(false);  
     const [formData , setFormData] = useState({
         nom:"",
         prenom:"",

@@ -3,18 +3,10 @@
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import * as formik from 'formik';
-import * as yup from 'yup';
 function MarchandiseReservation({formData , setFormData }) {
-    const { Formik } = formik;
+   
 
-  const schema = yup.object().shape({
-    depart: yup.string().required(),
-    arriver: yup.string().required(),
-    cargaison: yup.string().required(),
-    poids: yup.number().required(),
-    volume: yup.string().required(),
-  });
+
     return (
         
     <div className=" MarchandiseReservation">
@@ -77,9 +69,7 @@ function MarchandiseReservation({formData , setFormData }) {
     </Row>
     </div>
     
-    {/*<Button variant="primary" type="submit">
-        Reserver
-      </Button>*/}
+    
     </div>
 
     );
