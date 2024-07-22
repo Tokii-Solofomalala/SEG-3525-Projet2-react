@@ -2,7 +2,6 @@ import moment from 'moment';
 import { useState } from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
-import { Link } from 'react-router-dom';
 import NavbarSecond from '../components/navbarSecond';
 import Navbar from '../components/navbar';
 
@@ -11,7 +10,7 @@ function Suivi(){
     
         const eventStyleGetter = (event, start, end, isSelected) => {
             const style = {
-            backgroundColor: event.color, // Utiliser la couleur définie pour cet événement
+            backgroundColor: event.color, 
             borderRadius: '5px',
             opacity: 0.8,
             color: 'white',

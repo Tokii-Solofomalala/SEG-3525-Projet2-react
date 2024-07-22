@@ -3,7 +3,6 @@ import Reservation from '../pages/reservation';
 import MarchandiseReservation from '../pages/marchandiseReservation';
 import ConfirmationReservation from '../pages/confirmationReservation';
 import { useNavigate } from 'react-router-dom';
-import { TiTick } from "react-icons/ti";
 import NavbarSecond from '../components/navbarSecond';
 import Navbar from '../components/navbar';
 

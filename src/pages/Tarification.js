@@ -3,7 +3,7 @@ import {React,useState} from 'react';
 import Navbar from '../components/navbar';
 import NavbarSecond from '../components/navbarSecond';
 import Footer from '../components/footer';
-import Row from 'react-bootstrap/esm/Row';
+
 
 function Tarification(){
     const [origine,setOrigine] = useState("");

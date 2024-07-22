@@ -1,7 +1,6 @@
 
 import NavbarSecond from '../components/navbarSecond';
 import Navbar from '../components/navbar';
-import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,7 +14,7 @@ const Home = () => {
           <NavbarSecond />
 
           <section id="home">
-          <img src = "../Images/service-de-livraison-unique.png" alt="Description de l'image" style={{ width: '100%', height: 'auto' }} />
+          <img src = "../Images/service-de-livraison-unique.png" alt="Description de l'image1n" style={{ width: '100%', height: 'auto' }} />
             
           </section>
 
@@ -31,7 +30,7 @@ const Home = () => {
                           < br/>Notre mission est simple : fournir un service de transport régional de premier ordre en alliant efficacité, sécurité et service client exceptionnel. Nous nous efforçons de répondre aux besoins variés de 
                           nos clients en offrant des solutions de transport flexibles et adaptées à chaque situation.</p>
                     </Col>
-                    <Col><img src='../Images/191206_UF_02-0419_v5-scaled-1.jpg' style={{width: '100%', height:'auto'}}></img></Col>
+                    <Col><img src='../Images/191206_UF_02-0419_v5-scaled-1.jpg' style={{width: '100%', height:'auto'}} alt="Description de l'image"></img></Col>
                 </Row>
                 </div>
             </Container>

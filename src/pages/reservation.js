@@ -1,6 +1,6 @@
 
 import Form from 'react-bootstrap/Form';
-import Navbar from '../components/navbar';
+
 
 function Reservation({formData , setFormData }) {
   return (
